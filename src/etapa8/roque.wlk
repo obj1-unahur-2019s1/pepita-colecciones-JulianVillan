@@ -9,7 +9,10 @@ object roque {
 		pupilos = ave
 	} 
 	method pupiloActual() { return pupilos }
-
+	
+	method estaContento(){ 
+		return pupilos.size() > 1 and pupilos.size() < 8
+	}
 	method entrenar() { 
 		pupilos.forEach { pupilo =>
 		pupilo.volar(10)

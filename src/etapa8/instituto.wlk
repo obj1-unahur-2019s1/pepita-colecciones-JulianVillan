@@ -16,4 +16,10 @@ object instituto {
 	method entrenamientoGeneral(){
 		empleados.forEach { empleado => empleado.entrenar()}		
 	}
+	
+	method buenAmbiente(){
+		  
+			
+		}
+	}
 }

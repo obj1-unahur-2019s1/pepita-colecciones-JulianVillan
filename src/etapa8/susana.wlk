@@ -17,4 +17,5 @@ object susana {
 		pupilo.comer(alpiste, 100)
 		pupilo.volar(20)
 	} 
+	method estaContento(){ return pupilo.puedeVolar(5)}
 }  
